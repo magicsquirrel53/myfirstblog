@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ec)0k_!b3s6^10j*r34g2%oxo8c5#7#%wdvl+pq-6su5zx1fe9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '/.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'magicsquirrel.pythonanywhere.com']
 
 
 # Application definition
